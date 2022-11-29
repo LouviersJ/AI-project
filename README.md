@@ -1,6 +1,8 @@
 # AI Project Predicting Heart Disease
 ## Student Names: Lou Joseph,  Thaddaeus Lankford
 
+(`pip install -r requirements.txt` will install all the required packages to run the code in the Analyzer.ipynb file)
+
 ## Project summary
 The problem we will be addressing is the prediction of prevalence and severity of heart disease. This project is useful because predicting heart disease can aid in preventative treatment and cardiac rehabilitation after heart disease has been detected. For this project we will be using a random forest classifier and support vector classifier to predict heart disease.
 
