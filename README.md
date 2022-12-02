@@ -10,9 +10,8 @@ Often times this dataset is split to have binary classification of having heart 
 negative rate) and accuracy rating than Naive Bayes and Bayesian Neural, and sensitivity (True
 Positive rate) rating near and higher than some ensemble classifiers, so naturally I decided a random forest classifier would be pretty good. 
 I also implimented an SVM because of the multivaried nature of the classifications in hopes it would more accurratly label the test set with 5 classifications.
-I also used the data from the switzerland dataset because it was the only other set with all the labels intact. I dropped all the rows from this set with more than 1 entry as null and up with an extra ~40 data points. I filled the "ca" field with the mean rounded value because it was a discrete set of values that I believed at the time would not impact the data in a huge way (it did), and thal with the rounded mean for the same reasons (this only filled 2 values so it was no problem).
 
-I got the feature importances of my random forest models and made point line graphs with the features most correlated with having heart disease. 
+*I also used the data from the switzerland dataset because it was the only other set with all the labels intact. I dropped all the rows from this set with more than 1 entry as null and up with an extra ~40 data points. I filled the "ca" field with the mean rounded value because it was a discrete set of values that I believed at the time would not impact the data in a huge way (it did), and thal with the rounded mean for the same reasons (this only filled 2 values so it was no problem).*
 
 *The models predicting 5 classifications will hardly ever predict a "4" because of the lack of entries in the dataset that are 4s. There is a high corelation with being older and having more severe heart disease, but at a certain severity the age dips slightly from what I assume is the mortality rate of people that age having that severity of heart disease not living long enough to be observed. It may also be the general thinning of any given population around older ages.*
 
